@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- ============================================ -->
+  <!-- PÁGINA HOME - Máxima prioridad -->
+  <!-- ============================================ -->
+  <url>
+    <loc>https://carlosguzmanri-dev.github.io/seo-site/</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://carlosguzmanri-dev.github.io/seo-site/images/og-home.jpg</image:loc>
+      <image:title>SEO Optimized Site Homepage</image:title>
+    </image:image>
+  </url>
+
+  <!-- ============================================ -->
+  <!-- BLOG - Alta prioridad, cambia frecuentemente -->
+  <!-- ============================================ -->
+  <url>
+    <loc>https://carlosguzmanri-dev.github.io/seo-site/blog</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- ============================================ -->
+  <!-- ARTÍCULOS DEL BLOG -->
+  <!-- ============================================ -->
+  <url>
+    <loc>https://carlosguzmanri-dev.github.io/seo-site/blog/complete-guide-technical-seo-2025</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://carlosguzmanri-dev.github.io/seo-site/images/technical-seo-featured.jpg</image:loc>
+      <image:title>Complete Guide to Technical SEO in 2025</image:title>
+      <image:caption>Master technical SEO aspects</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://carlosguzmanri-dev.github.io/seo-site/blog/schema-structured-data-implementation</loc>
+    <lastmod>2025-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://carlosguzmanri-dev.github.io/seo-site/blog/mobile-first-indexing-guide</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ============================================ -->
+  <!-- PRODUCTOS - Alta prioridad -->
+  <!-- ============================================ -->
+  <url>
+    <loc>https://carlosguzmanri-dev.github.io/seo-site/products</loc>
+    <lastmod>2025-01-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://carlosguzmanri-dev.github.io/seo-site/products/seo-toolkit-pro</loc>
+    <lastmod>2025-01-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://carlosguzmanri-dev.github.io/seo-site/images/seo-toolkit-pro.jpg</image:loc>
+      <image:title>Premium SEO Toolkit Pro</image:title>
+    </image:image>
+  </url>
+
+  <!-- ============================================ -->
+  <!-- PÁGINAS CORPORATIVAS -->
+  <!-- ============================================ -->
+  <url>
+    <loc>https://carlosguzmanri-dev.github.io/seo-site/about</loc>
+    <lastmod>2025-01-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://carlosguzmanri-dev.github.io/seo-site/contact</loc>
+    <lastmod>2025-01-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ============================================ -->
+  <!-- PÁGINAS ADICIONALES -->
+  <!-- ============================================ -->
+  <url>
+    <loc>https://carlosguzmanri-dev.github.io/seo-site/privacy-policy</loc>
+    <lastmod>2025-01-05</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://carlosguzmanri-dev.github.io/seo-site/terms-of-service</loc>
+    <lastmod>2025-01-05</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://carlosguzmanri-dev.github.io/seo-site/sitemap</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>
+
+<!-- 
+  NOTAS IMPORTANTES SOBRE EL SITEMAP:
+  
+  1. PRIORIDAD (priority):
+     - 1.0 = Máxima prioridad (solo homepage)
+     - 0.9 = Muy importante (categorías principales, productos destacados)
+     - 0.8 = Importante (artículos de blog, productos)
+     - 0.7 = Mediana (páginas secundarias)
+     - 0.5 = Baja (páginas de utilidad)
+     - 0.3 = Mínima (políticas, términos)
+  
+  2. CHANGEFREQ (frecuencia de cambio):
+     - always = Cambia en cada acceso
+     - hourly = Cada hora
+     - daily = Diariamente
+     - weekly = Semanalmente
+     - monthly = Mensualmente
+     - yearly = Anualmente
+     - never = Contenido archivado
+  
+  3. LASTMOD (última modificación):
+     - Formato: YYYY-MM-DD o YYYY-MM-DDTHH:MM:SS+00:00
+     - Debe ser la fecha real de última modificación
+  
+  4. LÍMITES:
+     - Máximo 50,000 URLs por sitemap
+     - Máximo 50MB sin comprimir
+     - Si excedes, usa índice de sitemaps (sitemap_index.xml)
+  
+  5. UBICACIÓN:
+     - Debe estar en: https://carlosguzmanri-dev.github.io/seo-site/sitemap.xml
+     - Debe declararse en robots.txt
+     - Debe enviarse a Google Search Console y Bing Webmaster Tools
+  
+  6. EXTENSIONES:
+     - image:image = Para imágenes
+     - video:video = Para videos
+     - news:news = Para noticias (Google News)
+     - xhtml:link = Para versiones multiidioma
+-->

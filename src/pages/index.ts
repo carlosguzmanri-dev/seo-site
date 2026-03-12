@@ -1,0 +1,9 @@
+export { default as About } from "./About/About";
+export { default as Article } from "./Article/Article";
+export { default as Blog } from "./Blog/Blog";
+export { default as Contact } from "./Contact/Contact";
+export { default as Home } from "./Home/Home";
+export { default as Product } from "./Product/Product";
+export { default as Robots } from "./Robots/Robots";
+export { default as Sitemap } from "./Sitemap/Sitemap";
+export { default as NotFound } from "./NotFound/NotFound";

@@ -1,0 +1,145 @@
+# robots.txt para SEO Optimized Site
+# Ubicación: https://carlosguzmanri-dev.github.io/seo-site/robots.txt
+# Última actualización: 2025-01-22
+
+# ============================================
+# REGLAS GENERALES PARA TODOS LOS BOTS
+# ============================================
+User-agent: *
+Allow: /
+
+# ============================================
+# DIRECTORIOS BLOQUEADOS
+# ============================================
+# Bloquear áreas administrativas
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+
+# Bloquear áreas privadas o de desarrollo
+Disallow: /private/
+Disallow: /temp/
+Disallow: /test/
+Disallow: /dev/
+Disallow: /staging/
+
+# Bloquear archivos de sistema y configuración
+Disallow: /cgi-bin/
+Disallow: /.git/
+Disallow: /node_modules/
+
+# ============================================
+# PARÁMETROS DE URL BLOQUEADOS
+# ============================================
+# Prevenir indexación de contenido duplicado
+Disallow: /*?sort=*
+Disallow: /*?filter=*
+Disallow: /*?page=*&page=*
+Disallow: /*?utm_*
+Disallow: /*?ref=*
+Disallow: /*?session*
+Disallow: /*?sid=*
+
+# ============================================
+# PÁGINAS ESPECÍFICAS BLOQUEADAS
+# ============================================
+Disallow: /search
+Disallow: /search-results
+Disallow: /cart
+Disallow: /checkout
+Disallow: /thank-you
+Disallow: /login
+Disallow: /register
+Disallow: /my-account
+Disallow: /404.html
+
+# ============================================
+# ARCHIVOS BLOQUEADOS
+# ============================================
+Disallow: /*.pdf$
+Disallow: /*.doc$
+Disallow: /*.docx$
+Disallow: /*.xls$
+Disallow: /*.xlsx$
+Disallow: /private-downloads/
+
+# ============================================
+# PERMITIR RECURSOS EXPLÍCITAMENTE
+# ============================================
+# Permitir rastreo de CSS, JS e imágenes (buena práctica)
+Allow: /css/
+Allow: /js/
+Allow: /images/
+Allow: /fonts/
+Allow: /assets/
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.webp$
+
+# ============================================
+# CONFIGURACIÓN POR BOT ESPECÍFICO
+# ============================================
+
+# Googlebot - Sin restricciones adicionales
+User-agent: Googlebot
+Crawl-delay: 0
+
+# Googlebot para imágenes
+User-agent: Googlebot-Image
+Allow: /images/
+
+# Bingbot de Microsoft
+User-agent: Bingbot
+Crawl-delay: 1
+
+# Yandex (Rusia)
+User-agent: Yandex
+Crawl-delay: 2
+
+# Baidu (China)
+User-agent: Baiduspider
+Crawl-delay: 2
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Crawl-delay: 1
+
+# ============================================
+# BOTS MALICIOSOS - BLOQUEAR COMPLETAMENTE
+# ============================================
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+# ============================================
+# UBICACIÓN DEL SITEMAP
+# ============================================
+Sitemap: https://carlosguzmanri-dev.github.io/seo-site/sitemap.xml
+Sitemap: https://carlosguzmanri-dev.github.io/seo-site/sitemap-images.xml
+Sitemap: https://carlosguzmanri-dev.github.io/seo-site/sitemap-videos.xml
+
+# ============================================
+# NOTAS IMPORTANTES
+# ============================================
+# 1. Robots.txt NO proporciona seguridad real
+# 2. Bots maliciosos pueden ignorar estas reglas
+# 3. Para contenido sensible usa autenticación o meta robots noindex
+# 4. Probar en Google Search Console > Herramienta de prueba robots.txt
+# 5. Este archivo debe ser accesible en: https://carlosguzmanri-dev.github.io/seo-site/robots.txt
